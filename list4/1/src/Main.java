@@ -10,9 +10,9 @@ public class Main {
             decoder.getKey();
             decoder.decryptionAllCiphertext();
             var cryptograms = decoder.getCryptograms();
-            String plaintext = "Jak wynika z naszych rozmow z hierarchami, biskupi maja dosc kroczacego fiaska licznych programow duszpasterskich i terapeutycznych, majacych zmieniac orientacje seksualna na taka, ktora \"jest blizsza Bogu\". Na nic byly prosby, na nic modlitwy, na nic straszenie pieklem, niektore z tych osob sa po prostu niereformowalne i rzecz trzeba w koncu przeciac ? ujawnia nasz rozmowca dominujace nastawienie w KEP. Dlatego juz w te niedziele w kazdej z polskich parafii zostanie odczytany list posterski,";
+            String plaintext = "Wlasnie sie dowiedzial, ze Janda to nie Malgorzata Kozuchowska Zamieszanie wokol wpisu Krystyny Jandy, w ktorym poskarzyla sie, ze nie rozpoznal jej sprzedawca w sklepie, uderzylo rykoszetem w dzialalnosc artystyczna tej wybitnej aktorki. Czuje sie oszukany jako staly bywalec Teatru Polonia ? mowi nam byly juz fan tej warszawskiej sceny. ? Bylem przekonany, ze zo teatr Malgorzaty Kozuchowskiej, w ktorym moja ulubiona aktorka gra glowne role.";
             int start = 0;
-            int indexCryptograms = 8;
+            int indexCryptograms = 7;
 
             decoder.getKey();
             decoder.knowPlaintextAttack(plaintext,cryptograms.get(indexCryptograms), start);
