@@ -1,0 +1,113 @@
+body {
+	background-color: #47476b;
+	color: #ffffcc;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+.mainContainer {
+
+	min-height:100%;
+	position:relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 330px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.welcome{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+
+footer {
+	background-color: #B23A21;
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	width: 100%;
+	padding-top: 20px;
+	height: 60px;
+	font-size: 1em;
+	position: absolute;
+	bottom:0;
+	}
+}
+
+input {
+    padding: 4px 6px;
+    display: inline-block;
+    border: 1px solid #red;
+    box-sizing: border-box;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.menu{
+	margin-bottom: 5%;
+}
+
+.tableH{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+.descriptionWeb{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.centreWeb{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 10%;
+	margin-left:  42%;
+	margin-right: auto;
+	position: absolute;
+	text-align: left;
+}
+
+.remittanceWeb{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 10%;
+	margin-left:  38%;
+	margin-right: auto;
+	position: absolute;
+	text-align: left;
+}
+.error{
+    color:red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.logo{
+	color: #B23A21;
+	font-size: 50px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: 700;
+	min-height: 100px;
+}
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+td, th { border: 2px solid #B23A21; }
